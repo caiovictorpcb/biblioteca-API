@@ -18,6 +18,8 @@ app.use('/update', indexRouter)
 
 app.use('/delete', indexRouter)
 
+app.use('/xesque', indexRouter)
+
 app.listen(30001, () => {
   console.log("Rodando em http://localhost:30001")
 })

@@ -45,8 +45,8 @@ router.post('/delete', (req, res) =>{
     const livroID = Number(req.body.id);
     deletarLivro(livroID);
 })
-router.get('/teste', (req, res)=>{
-    
+router.get('/xesque', (req, res)=>{
+    res.send('DELE')
 })
 
 
